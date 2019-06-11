@@ -88,5 +88,18 @@
   },
   "rulesDirectory": [
     "codelyzer"
+  ],
+  "no-shadowed-variable": [
+    true,
+    {
+      "class": true,
+      "enum": true,
+      "function": false,
+      "interface": false,
+      "namespace": true,
+      "typeAlias": false,
+      "typeParameter": false,
+      "underscore": false
+    }
   ]
 }
